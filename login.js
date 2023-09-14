@@ -48,6 +48,7 @@ registerLink.addEventListener("click", () => {
         password: useraassword.value
     };
     
+    
     fetch("/contact", {
         method: 'POST',
         headers:{
